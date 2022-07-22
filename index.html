@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="shortcut icon" href="./images/The-Band.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio src="./music/Another Love - Tom Odell.mp3" id="audio" autoplay loop></audio>
+    <div class="container">
+        <header id="header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#band">Band</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#">
+                            More
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="btn-find">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id="btn-list">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <div id="slider">
+            <div class="description">
+                <div class="title">
+                    <h3>Los Angeles</h3>
+                </div>
+                <div class="paragraph">
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <section id="band">
+                <h2 class="heading">THE BAND</h2>
+                <p class="sub-heading">We love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="list-member">
+                    <div class="member-item">
+                        <p class="item-title">Name</p>
+                        <img src="./images/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member-item">
+                        <p class="item-title">Name</p>
+                        <img src="./images/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member-item">
+                        <p class="item-title">Name</p>
+                        <img src="./images/bandmember.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <div id="tour">
+                <section>
+                    <h2 class="heading">TOUR DATES</h2>
+                    <p class="sub-heading">Remember to book your tickets!</p>
+                    <div class="tickets-list">
+                        <ul>
+                            <li>
+                                September
+                                <span class="sold-out">Sold out</span>
+                            </li>
+                            <li>
+                                October
+                                <span class="sold-out">Sold out</span>
+                            </li>
+                            <li>
+                                November
+                                <span class="quantity">3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="places-list">
+                        <!-- show data -->
+                    </div>
+                </section>
+            </div>
+            <section id="contact">
+                <h2 class="heading">CONTACT</h2>
+                <p class="sub-heading">Fan? Drop a note!</p>
+                <div class="contact-content">
+                    <div class="address">
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Chicago, US
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            Phone: <a href="tel:+00 151515">+00 151515</a>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: <a href="mailto:mail@mail.com">mail@mail.com</a>
+                        </p>
+                    </div>
+                    <form action="">
+                        <div class="profile">
+                            <input type="text" placeholder="Name" required>
+                            <input type="email" placeholder="Email" required class="email">
+                        </div>
+                        <input type="text" placeholder="Message" required>
+                        <button>Send</button>
+                    </form>                   
+                </div>
+            </section>
+            <div class="map-section">
+                <img src="./images/map.jpg" alt="">
+            </div>
+        </div>
+        <footer>
+            <div class="socials-list">
+                <a href="https://www.facebook.com/vananh362"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/vananhd362/"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p>Powered by <a href="https://www.facebook.com/vananh362">DinhHaiDuong</a></p>
+        </footer>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="modal-heading">
+                <i class="fa-solid fa-suitcase"></i>
+                Tickets
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <label for="amount">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input type="text" placeholder="How many?" required id="amount">
+                    <label for="send-to">
+                        <i class="fa-solid fa-user"></i>
+                        Send To
+                    </label>
+                    <input type="text" placeholder="Enter email" required id="send-to">
+                    <button>
+                        Pay
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p>
+                    Need
+                    <a href="">help?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
